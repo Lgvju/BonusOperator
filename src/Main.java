@@ -7,13 +7,13 @@ public class Main {
         int bonus = 1000;
 
         if (summa > bonus) {
-            int TotalSumma = summa / bonusCuff + summa + sachet;
+            int totalSumma = summa / bonusCuff + summa + sachet;
             System.out.println("Сумма бонусов = " +  (summa / bonusCuff));
-            System.out.println("Общая сумма = " + TotalSumma + "рублей");
+            System.out.println("Общая сумма = " + totalSumma + "рублей");
         } else {
-            int TotalSumma = summa + sachet;
+            int totalSumma = summa + sachet;
             System.out.println("Сумма бонусов = " + 0);
-            System.out.println("Общая сумма = " + TotalSumma + "рублей");
+            System.out.println("Общая сумма = " + totalSumma + "рублей");
 
         }
     }
