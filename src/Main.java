@@ -7,8 +7,8 @@ public class Main {
         int bonus = 1000;
 
         if (summa > bonus) {
-            int finalScore= summa / addition + summa + startingScore;
-            System.out.println("Сумма бонусов = " +  (summa / addition));
+            int finalScore = summa / addition + summa + startingScore;
+            System.out.println("Сумма бонусов = " + (summa / addition));
             System.out.println("Итоговый счет = " + finalScore + " рублей");
         } else {
             int finalScore = summa + startingScore;
